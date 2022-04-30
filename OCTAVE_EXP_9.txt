@@ -1,0 +1,17 @@
+A = [5, 9; 3, -6];
+b = [5;4];
+A \ b
+
+
+#second method
+inv(A)*B
+
+
+#third method
+(A^-1)*B
+
+
+#fourth method
+linsolve(A,B)
+
+
